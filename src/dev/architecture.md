@@ -9,10 +9,9 @@ graph TD
     Desktop[lumina-desktop] --> Shared[lumina-shared]
     Desktop --> Core[lumina-core]
     Desktop --> Renderer[lumina-skia-renderer]
-    Desktop --> UI[lumina-ui]
     
     Renderer --> Core
-    Renderer --> UI
+    Renderer --> UI[lumina-ui]
     Renderer --> Shared
     
     Core --> VVS[viviscript-core]
