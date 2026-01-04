@@ -47,11 +47,11 @@ label init
 
     : 演示结束。
 
-    -- 这是一个跳转标签，意味着它将会跳转到标签名为 "stop" 的部分并执行
-    jump stop
+    -- 这是一个跳转标签，意味着它将会跳转到标签名为 "end" 的部分并执行
+    jump end
 enlb
 
-label stop
+label end
 : 演示结束。
 enlb
 ```
